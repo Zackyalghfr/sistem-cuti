@@ -13,7 +13,7 @@ hingga pencatatan log eksekusi sistem.
 
 Teknologi Utama (Tech Stack):
 - Runtime / Language : Node.js (JavaScript / TypeScript)
-- Database           : PostgreSQL
+- Database           : MySql
 - ORM                : Prisma ORM
 - Authentication     : Bcryptjs / NextAuth (Auth.js)
 
