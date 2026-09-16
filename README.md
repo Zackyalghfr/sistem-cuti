@@ -23,7 +23,7 @@ Teknologi Utama (Tech Stack):
 Sebelum menjalankan aplikasi, pastikan perangkat telah terinstall:
 1. Node.js (Versi 18.x atau lebih baru)
 2. NPM (Node Package Manager)
-3. PostgreSQL Service (Lokal atau Cloud PostgreSQL Instance)
+3. PostgreSQL Service (Lokal atau Cloud MySql Instance)
 
 
 3. KONFIGURASI ENVIRONMENT VARIABLES (.env)
@@ -31,13 +31,13 @@ Sebelum menjalankan aplikasi, pastikan perangkat telah terinstall:
 Buat file bernama `.env` pada root direktori project, lalu isi dengan 
 konfigurasi berikut:
 
-DATABASE_URL="postgresql://USERNAME:PASSWORD@localhost:5432/NAMA_DATABASE?schema=public"
+DATABASE_URL="MySql://USERNAME:PASSWORD@localhost:5432/NAMA_DATABASE?schema=public"
 NEXTAUTH_SECRET="buat-string-rahasia-bebas-di-sini"
 NEXTAUTH_URL="http://localhost:3000"
 
 Catatan: 
 Sesuaikan USERNAME, PASSWORD, PORT (default: 5432), dan NAMA_DATABASE 
-dengan kredensial PostgreSQL lokal Anda.
+dengan kredensial MySql lokal Anda.
 
 
 4. LANGKAH-LANGKAH MENJALANKAN PROJECT
@@ -97,7 +97,7 @@ Setiap akun dummy hasil seeding menggunakan password default: password123
 
 6. UTILITAS MANAGEMEN DATABASE (PRISMA STUDIO)
 -----------------------------------------------
-Untuk melihat, memantau, atau mengedit data tabel PostgreSQL secara 
+Untuk melihat, memantau, atau mengedit data tabel MySql secara 
 visual melalui GUI Web, jalankan perintah:
 > npx prisma studio
 
