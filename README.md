@@ -23,7 +23,7 @@ Teknologi Utama (Tech Stack):
 Sebelum menjalankan aplikasi, pastikan perangkat telah terinstall:
 1. Node.js (Versi 18.x atau lebih baru)
 2. NPM (Node Package Manager)
-3. PostgreSQL Service (Lokal atau Cloud MySql Instance)
+3. MySql Service (Lokal atau Cloud MySql Instance)
 
 
 3. KONFIGURASI ENVIRONMENT VARIABLES (.env)
