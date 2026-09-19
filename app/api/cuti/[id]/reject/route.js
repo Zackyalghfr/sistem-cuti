@@ -1,6 +1,6 @@
 import { getServerSession } from 'next-auth'
-import { authOptions } from '@/lib/auth'
-import { runFlow } from '@/lib/workflow-engine'
+import { authOptions } from '@/backend/auth'
+import { runFlow } from '@/backend/workflow-engine'
 
 export async function POST(req, { params }) {
   const session = await getServerSession(authOptions)

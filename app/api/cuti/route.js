@@ -1,7 +1,7 @@
 import { getServerSession } from 'next-auth'
-import { authOptions } from '@/lib/auth'
-import { prisma } from '@/lib/prisma'
-import { runFlow } from '@/lib/workflow-engine'
+import { authOptions } from '@/backend/auth'
+import { prisma } from '@/backend/prisma'
+import { runFlow } from '@/backend/workflow-engine'
 
 const VALID_JENIS_CUTI = ['TAHUNAN', 'SAKIT', 'MELAHIRKAN', 'KELUARGA', 'BESAR']
 
